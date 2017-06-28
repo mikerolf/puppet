@@ -11,6 +11,6 @@ cron { 'run-puppet':
 }
 
 file { '/tmp/test.txt':
-  ensure => true
+  ensure => true,
   content => 'xxx'  
 }
